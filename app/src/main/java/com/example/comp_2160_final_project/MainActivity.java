@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    String main_list[] = new String[] {"Option1", "Option2", "Option3"};
+    String main_list[] = new String[] {"Assault Rifles", "SMGS", "ShotGuns" , "LMGS", "Marksman Rifles", "Sniper Rilfes", "HandGuns", "Launchers", "Melle"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

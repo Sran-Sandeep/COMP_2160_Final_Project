@@ -9,6 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP_2160_Final_Project">
+        <activity android:name=".Melee"></activity>
+        <activity android:name=".Launchers" />
+        <activity android:name=".Handguns" />
+        <activity android:name=".Sniper_Rifles" />
+        <activity android:name=".Marksman_Rifles" />
+        <activity android:name=".LMGS" />
+        <activity android:name=".Shotguns" />
+        <activity android:name=".SMGS" />
+        <activity android:name=".Assault_Rifles" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
