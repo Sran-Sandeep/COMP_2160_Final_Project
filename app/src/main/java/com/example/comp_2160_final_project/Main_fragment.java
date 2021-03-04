@@ -25,7 +25,7 @@ public class Main_fragment extends Fragment {
 
     ArrayAdapter<String> adapter;
 
-    String[] data = {"Assault Rifles", "Handguns", "Launchers", "LMGS", "Marksman Rifles", "Melee", "Shotguns","SMGS", "Snipers"};
+    String[] data = {"Assault Rifles", "Handguns", "Launchers", "LMGS", "Marksman Rifles", "Melee", "Shotguns","SMGS", "Sniper Rifles "};
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -73,6 +73,54 @@ public class Main_fragment extends Fragment {
                 if(position == 0)
                 {
                     Intent intent = new Intent (getContext(), Assault_Rifles.class);
+                    startActivity(intent);
+                }
+
+                if(position == 1)
+                {
+                    Intent intent = new Intent (getContext(), Handguns.class);
+                    startActivity(intent);
+                }
+
+                if(position == 2)
+                {
+                    Intent intent = new Intent (getContext(), Launchers.class);
+                    startActivity(intent);
+                }
+
+                if(position == 3)
+                {
+                    Intent intent = new Intent (getContext(), LMGS.class);
+                    startActivity(intent);
+                }
+
+                if(position == 4)
+                {
+                    Intent intent = new Intent (getContext(), Marksman_Rifles.class);
+                    startActivity(intent);
+                }
+
+                if(position == 5)
+                {
+                    Intent intent = new Intent (getContext(), Melee.class);
+                    startActivity(intent);
+                }
+
+                if(position == 6)
+                {
+                    Intent intent = new Intent (getContext(), Shotguns.class);
+                    startActivity(intent);
+                }
+
+                if(position == 7)
+                {
+                    Intent intent = new Intent (getContext(), SMGS.class);
+                    startActivity(intent);
+                }
+
+                if(position == 8)
+                {
+                    Intent intent = new Intent (getContext(), Sniper_Rifles.class);
                     startActivity(intent);
                 }
 
