@@ -3,4 +3,8 @@
     <string name="assault_rifles">Assault Rifles</string>
     <string name="modern_warefare_camo_tracker">Modern WareFare Camo Tracker</string>
     <string name="hello_blank_fragment">text1</string>
+
+    <string name="gun_name">1911</string>
+    <string name="gun_desc">Image of Gun</string>
+    <string name="camo_desc">Image of Camo</string>
 </resources>
