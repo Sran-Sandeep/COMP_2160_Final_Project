@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">COMP_2160_Final_Project</string>
     <string name="assault_rifles">Assault Rifles</string>
+    <string name="smg_rifles">Submachine Guns</string>
+    <string name="lmg_rifles">Light Machine Guns</string>
+    <string name="marksman_rifles">Marksman Rifles</string>
+    <string name="sniper_rifles">Sniper Rifles</string>
+    <string name="shotguns">Shotguns</string>
+    <string name="handguns">Handguns</string>
+    <string name="launchers">Rocket Launchers</string>
+    <string name="melee">Melee</string>
+    <string name="title">Companion App</string>
+    <string name="camo_list">Camo List</string>
+    <string name="challenge_list">Challenge List</string>
+
     <string name="modern_warefare_camo_tracker">Modern WareFare Camo Tracker</string>
     <string name="hello_blank_fragment">text1</string>
 
