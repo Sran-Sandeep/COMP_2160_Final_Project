@@ -27,7 +27,8 @@
         android:id="@+id/main_fragment"
         android:name="com.example.comp_2160_final_project.Main_fragment"
         android:layout_width="match_parent"
-        android:layout_height="779dp">
+        android:layout_height="779dp"
+        tools:layout="@layout/fragment_main_fragment">
 
     </fragment>
 </LinearLayout>

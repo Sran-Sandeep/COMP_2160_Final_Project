@@ -23,4 +23,17 @@
     <string name="objective_text">Total Kills: </string>
     <string name="Adder">Add 1</string>
     <string name="Resetter">Reset</string>
+    <string name="Ticker">0</string>
+
+    <string name ="AR">Assault Rifles</string>
+    <string name ="SMG">Submachine Guns</string>
+    <string name ="HG">Hand Guns</string>
+    <string name ="LMG">Light Machine Guns </string>
+    <string name ="SR">Sniper Rifles</string>
+    <string name ="SG">Shotguns</string>
+    <string name ="Melee">Melee</string>
+
+    <string name="camoL">Camo List</string>
+    <string name="challL">Challenge List </string>
+
 </resources>
