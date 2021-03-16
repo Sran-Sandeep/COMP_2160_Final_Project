@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assault_Rifles">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="KILO 141"
+        android:textSize="40sp"
+        tools:ignore="MissingConstraints"></TextView>
+
+
+    <LinearLayout
+        android:paddingTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kilo141_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kilo_141"
+            android:textSize="24sp"></TextView>
+
+        <ImageView
+            android:id="@+id/kilo141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/icon_kilo141"
+            android:contentDescription="@string/todo"></ImageView>
+
+        <CheckBox
+            android:id="@+id/kilo141_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></CheckBox>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
