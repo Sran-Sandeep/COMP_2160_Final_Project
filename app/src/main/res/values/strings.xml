@@ -27,5 +27,7 @@
     <string name="challL">Challenge List </string>
 
     <string name="title">Companion App</string>
+    <string name="todo">TODO</string>
+    <string name="kilo_141">KILO 141</string>
 
 </resources>
