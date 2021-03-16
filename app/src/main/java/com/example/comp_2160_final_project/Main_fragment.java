@@ -1,6 +1,7 @@
 package com.example.comp_2160_final_project;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SearchView;
 
@@ -19,13 +21,18 @@ import android.widget.SearchView;
  * create an instance of this fragment.
  */
 public class Main_fragment extends Fragment {
-    ListView listView;
 
-    SearchView searchView;
+    public Button ar;
+    public Button handguns;
+    public Button lmgs;
+    public Button launchers;
+    public Button marksman;
+    public Button melee;
+    public Button smgs;
+    public Button shotguns;
+    public Button sniper;
 
-    ArrayAdapter<String> adapter;
 
-    String[] data = {"Assault Rifles", "Handguns", "Launchers", "LMGS", "Marksman Rifles", "Melee", "Shotguns","SMGS", "Sniper Rifles "};
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -64,69 +71,90 @@ public class Main_fragment extends Fragment {
     {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main_fragment, container, false);
-        listView = (ListView) view.findViewById(R.id.main_list);
-        adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, data);
-        listView.setAdapter(adapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+        ar = (Button)view.findViewById(R.id.arButton);
+        handguns = (Button)view.findViewById(R.id.hgButton);
+        lmgs = (Button)view.findViewById(R.id.lmgButton);
+        launchers =(Button)view.findViewById(R.id.launcherButton);
+        marksman = (Button)view.findViewById(R.id.marksmanButton);
+        melee = (Button)view.findViewById(R.id.meleeButton);
+        smgs = (Button)view.findViewById(R.id.smgButton);
+        shotguns = (Button)view.findViewById(R.id.shotgunButton);
+        sniper = (Button)view.findViewById(R.id.sniperButton);
+
+        ar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if(position == 0)
-                {
-                    Intent intent = new Intent (getContext(), Assault_Rifles.class);
-                    startActivity(intent);
-                }
-
-                if(position == 1)
-                {
-                    Intent intent = new Intent (getContext(), Handguns.class);
-                    startActivity(intent);
-                }
-
-                if(position == 2)
-                {
-                    Intent intent = new Intent (getContext(), Launchers.class);
-                    startActivity(intent);
-                }
-
-                if(position == 3)
-                {
-                    Intent intent = new Intent (getContext(), LMGS.class);
-                    startActivity(intent);
-                }
-
-                if(position == 4)
-                {
-                    Intent intent = new Intent (getContext(), Marksman_Rifles.class);
-                    startActivity(intent);
-                }
-
-                if(position == 5)
-                {
-                    Intent intent = new Intent (getContext(), Melee.class);
-                    startActivity(intent);
-                }
-
-                if(position == 6)
-                {
-                    Intent intent = new Intent (getContext(), Shotguns.class);
-                    startActivity(intent);
-                }
-
-                if(position == 7)
-                {
-                    Intent intent = new Intent (getContext(), SMGS.class);
-                    startActivity(intent);
-                }
-
-                if(position == 8)
-                {
-                    Intent intent = new Intent (getContext(), Sniper_Rifles.class);
-                    startActivity(intent);
-                }
-
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Assault_Rifles.class );
+                startActivity(intent);
             }
-        }
-        );
+        });
+
+        handguns.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Handguns.class );
+                startActivity(intent);
+            }
+        });
+
+        lmgs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), LMGS.class );
+                startActivity(intent);
+            }
+        });
+
+        launchers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Launchers.class );
+                startActivity(intent);
+            }
+        });
+
+        marksman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Marksman_Rifles.class );
+                startActivity(intent);
+            }
+        });
+
+        melee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Melee.class );
+                startActivity(intent);
+            }
+        });
+
+        shotguns.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Shotguns.class );
+                startActivity(intent);
+            }
+        });
+
+        sniper.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Sniper_Rifles.class );
+                startActivity(intent);
+            }
+        });
+
+        smgs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), SMGS.class );
+                startActivity(intent);
+            }
+        });
+
         return view;
     }
+
 }
