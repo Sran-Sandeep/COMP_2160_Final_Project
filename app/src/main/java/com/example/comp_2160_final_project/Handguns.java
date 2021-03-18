@@ -3,6 +3,7 @@ package com.example.comp_2160_final_project;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -28,16 +29,36 @@ ImageView gunView;
         but8 = findViewById(R.id.imageBtn8);
         but9 = findViewById(R.id.imageBtn9);
         but10 = findViewById(R.id.imageBtn10);
+        TextTitle = findViewById(R.id.titleText);
+        gunView = findViewById(R.id.imageView_weapon);
 
         switch (picker)
         {
             case 0:
+                enact_1911();
                 break;
             case 1:
                 break;
             case 2:
                 break;
         }
+
+    }
+
+    public void enact_1911()
+    {
+        TextTitle.setText("1911");
+        gunView.setImageResource(R.drawable.icon_1911);
+        but1.setImageResource(R.drawable.camo_digital_2);
+        but2.setImageResource(R.drawable.camo_digital_1);
+        but3.setImageResource(R.drawable.camo_digital_3);
+        but4.setImageResource(R.drawable.camo_digital_4);
+        but5.setImageResource(R.drawable.camo_digital_5);
+        but6.setImageResource(R.drawable.camo_digital_6);
+        but7.setImageResource(R.drawable.camo_digital_7);
+        but8.setImageResource(R.drawable.camo_digital_8);
+        but9.setImageResource(R.drawable.camo_digital_9);
+        but10.setImageResource(R.drawable.camo_completionist_damascus);
 
     }
 }
