@@ -30,4 +30,7 @@
     <string name="todo">TODO</string>
     <string name="kilo_141">KILO 141</string>
 
+    <string name="challenge_spec">Obtain 100 Kills</string>
+    <string name="incrementer">Number:</string>
+
 </resources>

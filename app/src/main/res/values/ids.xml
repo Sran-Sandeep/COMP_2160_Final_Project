@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="button" type="id"></item>
-    <item name="imageView6" type="id"></item>
-    <item name="imageView5" type="id"></item>
-    <item name="imageView11" type="id" />
+    <item name="button" type="id">tempButton</item>
+    <item name="imageBtn4" type="id">tempButton2</item>
+    <item name="imageBtn3" type="id">tempButton3</item>
+    <item name="imageBtn10" type="id" />
     <item name="titleText" type="id" />
-    <item name="imageView10" type="id" />
-    <item name="imageView9" type="id" />
-    <item name="imageView8" type="id" />
-    <item name="imageView7" type="id" />
-    <item name="imageView" type="id" />
+    <item name="imageBtn9" type="id" />
+    <item name="imageBtn5" type="id" />
+    <item name="imageBtn8" type="id" />
+    <item name="imageBtn7" type="id" />
+    <item name="imageBtn6" type="id" />
     <item name="imageView2" type="id" />
-    <item name="imageView3" type="id" />
-    <item name="imageView4" type="id" />
+    <item name="imageBtn1" type="id" />
+    <item name="imageBtn2" type="id" />
     <item name="textView3" type="id" />
     <item name="button2" type="id" />
 </resources>
