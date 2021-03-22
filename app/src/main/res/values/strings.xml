@@ -33,4 +33,14 @@
     <string name="challenge_spec">Obtain 100 Kills</string>
     <string name="incrementer">Number:</string>
 
+
+    <string-array name="handguns">
+        <item>1911</item>
+        <item>X16</item>
+        <item>.357</item>
+        <item>M19</item>
+        <item>50GS</item>
+        <item>Renetti</item>
+    </string-array>
+
 </resources>

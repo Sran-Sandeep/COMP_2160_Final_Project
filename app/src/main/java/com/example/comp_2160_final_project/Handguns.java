@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 public class Handguns extends AppCompatActivity {
 int picker = 0;
+String s1[], s2[];
+int images[] = {R.drawable.icon_1911,R.drawable.icon_x16,R.drawable.icon_357,R.drawable.icon_m19, R.drawable.icon_50gs, R.drawable.icon_renetti};
 ImageButton but1, but2, but3, but4, but5, but6, but7, but8, but9, but10;
 TextView TextTitle, Textchallenge;
 ImageView gunView;
