@@ -1,18 +1,16 @@
 package com.example.comp_2160_final_project;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class Handguns extends AppCompatActivity {
 int picker = 0;
-String s1[], s2[];
-int images[] = {R.drawable.icon_1911,R.drawable.icon_x16,R.drawable.icon_357,R.drawable.icon_m19, R.drawable.icon_50gs, R.drawable.icon_renetti};
+//String s1[], s2[];
+//int images[] = {R.drawable.icon_1911,R.drawable.icon_x16,R.drawable.icon_357,R.drawable.icon_m19, R.drawable.icon_50gs, R.drawable.icon_renetti};
 ImageButton but1, but2, but3, but4, but5, but6, but7, but8, but9, but10;
 TextView TextTitle, Textchallenge;
 ImageView gunView;
@@ -34,6 +32,8 @@ ImageView gunView;
         TextTitle = findViewById(R.id.titleText);
         gunView = findViewById(R.id.imageView_weapon);
 
+        //s1 = getResources().getStringArray(R.array.handguns);
+
         switch (picker)
         {
             case 0:
@@ -49,7 +49,7 @@ ImageView gunView;
 
     public void enact_1911()
     {
-        TextTitle.setText("1911");
+        //TextTitle.setText("1911");
         gunView.setImageResource(R.drawable.icon_1911);
         but1.setImageResource(R.drawable.camo_digital_2);
         but2.setImageResource(R.drawable.camo_digital_1);

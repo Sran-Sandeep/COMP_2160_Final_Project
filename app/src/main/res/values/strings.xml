@@ -43,4 +43,15 @@
         <item>Renetti</item>
     </string-array>
 
+    <string-array name="rlaunchers">
+        <item>PILA</item>
+        <item>Strela-P</item>
+        <item>JOKR</item>
+        <item>RPG-7</item>
+    </string-array>
+
+    <string-array name="desc">
+
+    </string-array>
+
 </resources>
