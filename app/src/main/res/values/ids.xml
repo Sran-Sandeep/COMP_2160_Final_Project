@@ -15,4 +15,7 @@
     <item name="imageBtn2" type="id" />
     <item name="textView3" type="id" />
     <item name="button2" type="id" />
+    <item name="text_toolbar" type="id" />
+    <item name="cardView" type="id" />
+    <item name="item_delete" type="id" />
 </resources>
