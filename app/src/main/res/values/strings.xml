@@ -50,6 +50,17 @@
         <item>RPG-7</item>
     </string-array>
 
+    <string-array name="rAssault">
+        <item>Kilo 141</item>
+        <item>FAL</item>
+        <item>M4A1</item>
+        <item>FR 5.56</item>
+        <item>Oden</item>
+        <item>M13</item>
+        <item>FN Scar 17</item>
+        <item>AK-47</item>
+    </string-array>
+
     <string-array name="desc">
 
     </string-array>
