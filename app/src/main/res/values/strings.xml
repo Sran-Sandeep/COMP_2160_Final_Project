@@ -61,6 +61,15 @@
         <item>AK-47</item>
     </string-array>
 
+    <string-array name="rSMG">
+        <item>AUG</item>
+        <item>P90</item>
+        <item>MP5</item>
+        <item>Uzi</item>
+        <item>PP19 Bizon</item>
+        <item>MP7</item>
+    </string-array>
+
     <string-array name="desc">
 
     </string-array>
