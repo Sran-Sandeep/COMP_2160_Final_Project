@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">COMP_2160_Final_Project</string>
 
-    <string name="modern_warefare_camo_tracker">Modern WareFare Camo Tracker</string>
+    <string name="modern_warfare_camo_tracker">Modern Warfare Camo Tracker</string>
     <string name="hello_blank_fragment">text1</string>
 
     <string name="gun_name">1911</string>

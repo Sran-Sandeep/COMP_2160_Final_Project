@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:gravity="center"
-        android:text="@string/modern_warefare_camo_tracker"
+        android:text="@string/modern_warfare_camo_tracker"
         android:textColor="@color/black"
         android:textSize="36sp"
         android:textStyle="bold|italic"

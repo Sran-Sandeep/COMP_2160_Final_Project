@@ -12,7 +12,7 @@ public class Launchers extends AppCompatActivity {
 
     String[] s1;
     String[] s2;
-    int[] images = {R.drawable.icon_jokr,R.drawable.icon_pila,R.drawable.icon_strela_p, R.drawable.icon_rpg_7};
+    int[] images = {R.drawable.icon_pila,R.drawable.icon_strela_p,R.drawable.icon_jokr, R.drawable.icon_rpg_7};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
