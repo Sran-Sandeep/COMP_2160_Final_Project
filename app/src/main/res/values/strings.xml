@@ -70,6 +70,13 @@
         <item>MP7</item>
     </string-array>
 
+    <string-array name="rLMG">
+        <item>PKM</item>
+        <item>SA87</item>
+        <item>M91</item>
+        <item>MG34</item>
+    </string-array>
+
     <string-array name="desc">
 
     </string-array>
