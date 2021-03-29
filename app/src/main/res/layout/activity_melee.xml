@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentBottom="true"
     tools:context=".Melee">
 
-    <CheckBox
-        android:id="@+id/checkBox"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/meleeRecycler"
         android:layout_width="match_parent"
-        android:layout_height="62dp"
-        android:text="Kilo 141" />
-</android.widget.RelativeLayout>
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="2dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
