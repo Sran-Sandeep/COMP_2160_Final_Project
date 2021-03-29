@@ -90,6 +90,14 @@
         <item>Origin 12 Shotgun</item>
     </string-array>
 
+    <string-array name="rHandgun">
+        <item>X16</item>
+        <item>1911</item>
+        <item>.357</item>
+        <item>M19</item>
+        <item>.50 GS</item>
+    </string-array>
+
     <string-array name="desc">
 
     </string-array>
