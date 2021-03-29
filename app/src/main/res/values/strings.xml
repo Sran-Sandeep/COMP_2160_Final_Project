@@ -77,6 +77,12 @@
         <item>MG34</item>
     </string-array>
 
+    <string-array name="rSR">
+        <item>Dragunov</item>
+        <item>HDR</item>
+        <item>AX-50</item>
+    </string-array>
+
     <string-array name="desc">
 
     </string-array>
