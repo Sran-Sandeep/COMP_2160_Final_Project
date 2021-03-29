@@ -83,6 +83,13 @@
         <item>AX-50</item>
     </string-array>
 
+    <string-array name="rShotgun">
+        <item>Model 680</item>
+        <item>R9–0 Shotgun</item>
+        <item>725</item>
+        <item>Origin 12 Shotgun</item>
+    </string-array>
+
     <string-array name="desc">
 
     </string-array>
