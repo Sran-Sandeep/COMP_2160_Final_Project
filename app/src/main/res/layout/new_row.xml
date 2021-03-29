@@ -44,5 +44,7 @@
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/weaponImage"
             app:layout_constraintTop_toTopOf="parent" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

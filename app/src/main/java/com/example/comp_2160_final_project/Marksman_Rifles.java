@@ -33,7 +33,7 @@ public class Marksman_Rifles extends AppCompatActivity
 
     ListView listView;
     ArrayAdapter<String> adapter;
-    String[] data = {"a", "b","c"};
+    String[] data = {"EBR 14", "Carbine MK2","KAR 98K","CROSSBOW","SKS", "SPR 208"};
     int[] images = {R.drawable.icon_ebr_14, R.drawable.icon_carbine_mk2, R.drawable.icon_kar98k, R.drawable.icon_crossbow, R.drawable.icon_sks, R.drawable.icon_sp_r_208};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
