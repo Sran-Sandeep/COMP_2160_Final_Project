@@ -42,7 +42,6 @@ public class Marksman_Rifles extends AppCompatActivity
 
         listView = findViewById(R.id.marks_man_list);
         adapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice,data);
-
         listView.setAdapter(adapter);
     }
 

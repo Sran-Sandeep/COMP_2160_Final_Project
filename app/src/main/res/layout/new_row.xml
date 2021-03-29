@@ -15,7 +15,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
     </androidx.cardview.widget.CardView>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="416dp"
@@ -28,10 +27,13 @@
             android:id="@+id/weaponImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginLeft="52dp"
             android:contentDescription="@string/Launcher"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
@@ -44,6 +46,15 @@
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/weaponImage"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="30dp"
+            tools:layout_marginLeft="50dp"></CheckBox>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
