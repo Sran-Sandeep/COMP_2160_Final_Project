@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation = "vertical">
+    android:background="#D5020F19"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/main_title"
@@ -13,7 +14,7 @@
         android:layout_height="85dp"
         android:gravity="center"
         android:text="@string/modern_warfare_camo_tracker"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"

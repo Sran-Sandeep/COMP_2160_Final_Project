@@ -29,7 +29,9 @@
                 android:id="@+id/arButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/AR" />
+                android:layout_marginBottom="8dp"
+                android:text="@string/AR"
+                app:backgroundTint="#D76A6969" />
         </TableRow>
 
         <TableRow
@@ -41,7 +43,9 @@
                 android:id="@+id/smgButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/SMG" />
+                android:layout_marginBottom="8dp"
+                android:text="@string/SMG"
+                app:backgroundTint="#D76A6969" />
         </TableRow>
 
         <TableRow
@@ -53,8 +57,10 @@
                 android:id="@+id/lmgButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:gravity="center"
-                android:text="@string/LMG" />
+                android:text="@string/LMG"
+                app:backgroundTint="#D76A6969" />
         </TableRow>
 
         <TableRow
@@ -66,7 +72,9 @@
                 android:id="@+id/marksmanButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/MM" />
+                android:layout_marginBottom="8dp"
+                android:text="@string/MM"
+                app:backgroundTint="#D76A6969" />
         </TableRow>
 
         <TableRow
@@ -78,7 +86,9 @@
                 android:id="@+id/sniperButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/SR" />
+                android:layout_marginBottom="8dp"
+                android:text="@string/SR"
+                app:backgroundTint="#D76A6969" />
         </TableRow>
 
         <TableRow
@@ -90,7 +100,9 @@
                 android:id="@+id/shotgunButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/SG" />
+                android:layout_marginBottom="8dp"
+                android:text="@string/SG"
+                app:backgroundTint="#D76A6969" />
         </TableRow>
 
         <TableRow
@@ -102,7 +114,9 @@
                 android:id="@+id/hgButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/HG" />
+                android:layout_marginBottom="8dp"
+                android:text="@string/HG"
+                app:backgroundTint="#D76A6969" />
         </TableRow>
 
         <TableRow
@@ -114,7 +128,9 @@
                 android:id="@+id/launcherButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Launcher" />
+                android:layout_marginBottom="8dp"
+                android:text="@string/Launcher"
+                app:backgroundTint="#D76A6969" />
         </TableRow>
 
         <TableRow
@@ -126,7 +142,9 @@
                 android:id="@+id/meleeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Melee" />
+                android:layout_marginBottom="8dp"
+                android:text="@string/Melee"
+                app:backgroundTint="#D76A6969" />
         </TableRow>
 </TableLayout>
 
