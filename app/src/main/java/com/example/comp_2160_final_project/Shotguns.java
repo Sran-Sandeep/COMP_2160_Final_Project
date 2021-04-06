@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
+import static com.example.comp_2160_final_project.R.id.shotgunRecycler;
+
 public class Shotguns extends AppCompatActivity {
 
     RecyclerView recyclerView;
@@ -19,7 +21,7 @@ public class Shotguns extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shotguns);
 
-        recyclerView = findViewById(R.id.shotgunRecycler);
+        recyclerView = findViewById(shotgunRecycler);
 
         s1 = getResources().getStringArray(R.array.rShotgun);
         //s2 = add descriptions or whatever

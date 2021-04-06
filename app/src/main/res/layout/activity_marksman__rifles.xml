@@ -9,12 +9,11 @@
     android:scrollbars="vertical"
     tools:context=".Marksman_Rifles">
 
-    <ListView
-        android:id="@+id/marks_man_list"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/marksmanRecycler"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#D76A6969"
-        android:choiceMode="multipleChoice"></ListView>
-
+        android:layout_height="match_parent"
+        android:background="#D5020F19"
+        tools:layout_editor_absoluteY="2dp" />
 
 </LinearLayout>

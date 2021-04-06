@@ -105,5 +105,13 @@
     <string-array name="desc">
 
     </string-array>
+    <string-array name="rMarksman">
+        <item>EBR-14</item>
+        <item>MK2 Carbine</item>
+        <item>Kar98K</item>
+        <item>Crossbow</item>
+        <item>SKS</item>
+        <item>SP-R 208</item>
+    </string-array>
 
 </resources>
