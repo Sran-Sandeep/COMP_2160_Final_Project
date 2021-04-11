@@ -6,6 +6,17 @@
     android:background="#D5020F19"
     tools:context=".SMGS">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/smgs"
+        android:gravity="center"
+        android:textSize="54sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/smgRecycler"
         android:layout_width="match_parent"

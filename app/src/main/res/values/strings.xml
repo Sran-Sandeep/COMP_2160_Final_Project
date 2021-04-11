@@ -32,6 +32,15 @@
 
     <string name="challenge_spec">Obtain 100 Kills</string>
     <string name="incrementer">Number:</string>
+    <string name="lmgs">LMGS</string>
+    <string name="msr">Marksman Rifles</string>
+    <string name="smgs">SMGS</string>
+    <string name="melee">MELEE</string>
+    <string name="handguns">Handguns</string>
+    <string name="shotguns">Shotguns</string>
+    <string name="launchers">Launchers</string>
+    <string name="assault_rifles">Assault Rifles</string>
+    <string name="snipers">Snipers</string>
 
 
     <string-array name="handguns">

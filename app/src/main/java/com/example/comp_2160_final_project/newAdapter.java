@@ -2,6 +2,7 @@ package com.example.comp_2160_final_project;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.content.SharedPreferences;
@@ -64,6 +66,7 @@ public class newAdapter extends RecyclerView.Adapter<newAdapter.MyViewHolder> {
     }
 
     public class MyViewHolder extends  RecyclerView.ViewHolder {
+        LinearLayout l;
         CheckBox checkBox;
         TextView TextL;
         ImageView ImageL;
@@ -72,7 +75,10 @@ public class newAdapter extends RecyclerView.Adapter<newAdapter.MyViewHolder> {
             TextL = itemView.findViewById(R.id.weaponTitle);
             ImageL = itemView.findViewById(R.id.weaponImage);
             checkBox = itemView.findViewById(R.id.checkDone);
-
+            
         }
+
     }
+
+
 }

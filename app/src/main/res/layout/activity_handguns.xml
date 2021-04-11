@@ -6,6 +6,17 @@
     android:background="#D5020F19"
     tools:context=".Handguns">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/handguns"
+        android:gravity="center"
+        android:textSize="54sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/handgunRecycler"
         android:layout_width="match_parent"

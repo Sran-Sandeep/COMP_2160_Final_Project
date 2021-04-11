@@ -8,6 +8,16 @@
     android:orientation="vertical"
     android:scrollbars="vertical"
     tools:context=".Marksman_Rifles">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msr"
+        android:gravity="center"
+        android:textSize="54sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints">
+    </TextView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/marksmanRecycler"
